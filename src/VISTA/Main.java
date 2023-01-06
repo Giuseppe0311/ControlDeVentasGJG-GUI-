@@ -33,7 +33,7 @@ public class Main {
       } catch (SQLException e) {
           JOptionPane.showMessageDialog(null, e.toString());
       }
-             System.out.println(id+"holaaaaa");
+             System.out.println(id);
 
   }
 }
