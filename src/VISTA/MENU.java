@@ -100,25 +100,25 @@ int x,y;
         });
         jPanel1.add(jLabel19, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 30, -1, -1));
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/IMAGENES/LOGObuenadifinicion.png"))); // NOI18N
-        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 30, -1, -1));
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/IMAGENES/icons8-cliente-de-empresa-100.png"))); // NOI18N
+        jLabel1.setText("Nombre EmpresaAqui");
+        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 30, 230, -1));
 
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/IMAGENES/CARAxD.jpeg"))); // NOI18N
-        jLabel2.setText("jLabel2");
-        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 170, 200, 220));
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/IMAGENES/icons8-gerente-100.png"))); // NOI18N
+        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 240, 110, 100));
 
         jLabel3.setBackground(new java.awt.Color(255, 0, 51));
         jLabel3.setFont(new java.awt.Font("Bahnschrift", 0, 14)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(255, 0, 51));
-        jLabel3.setText("orlando_bl_20@hotmail.com");
+        jLabel3.setText("correoaqui");
         jLabel3.setToolTipText("");
-        jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 510, 200, 40));
+        jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 490, 200, 40));
 
         jLabel18.setBackground(new java.awt.Color(0, 0, 0));
         jLabel18.setFont(new java.awt.Font("Bahnschrift", 0, 14)); // NOI18N
         jLabel18.setText("Contactos :");
         jLabel18.setToolTipText("");
-        jPanel1.add(jLabel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 470, 90, 40));
+        jPanel1.add(jLabel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 440, 90, 40));
 
         jLabel_internet.setIcon(new javax.swing.ImageIcon(getClass().getResource("/IMAGENES/icons8_Globe_32px.png"))); // NOI18N
         jLabel_internet.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -146,23 +146,23 @@ int x,y;
 
         jLabel20.setBackground(new java.awt.Color(0, 0, 0));
         jLabel20.setFont(new java.awt.Font("Bahnschrift", 0, 14)); // NOI18N
-        jLabel20.setText("ASESOR DE VENTAS - TARAPOTO");
+        jLabel20.setText("<<Cargo aqui>>");
         jLabel20.setToolTipText("");
-        jPanel1.add(jLabel20, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 400, 240, 40));
+        jPanel1.add(jLabel20, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 350, 120, 40));
 
         jLabel21.setBackground(new java.awt.Color(255, 0, 51));
         jLabel21.setFont(new java.awt.Font("Bahnschrift", 0, 14)); // NOI18N
         jLabel21.setForeground(new java.awt.Color(255, 0, 51));
-        jLabel21.setText("Orlando Barrera Lozano");
+        jLabel21.setText("<<NOMBRE AQUI >>");
         jLabel21.setToolTipText("");
-        jPanel1.add(jLabel21, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 430, 170, 40));
+        jPanel1.add(jLabel21, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 380, 130, 40));
 
         jLabel22.setBackground(new java.awt.Color(255, 0, 51));
         jLabel22.setFont(new java.awt.Font("Bahnschrift", 0, 14)); // NOI18N
         jLabel22.setForeground(new java.awt.Color(255, 0, 51));
-        jLabel22.setText("942624906");
+        jLabel22.setText("555-5555-5555");
         jLabel22.setToolTipText("");
-        jPanel1.add(jLabel22, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 470, 90, 40));
+        jPanel1.add(jLabel22, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 440, 90, 40));
 
         jLabel_enviarCorreotxt.setFont(new java.awt.Font("Bahnschrift", 0, 8)); // NOI18N
         jLabel_enviarCorreotxt.setText("Enviar Correo");
@@ -258,6 +258,9 @@ int x,y;
             }
         });
         jLabel14.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel14MouseClicked(evt);
+            }
             public void mouseExited(java.awt.event.MouseEvent evt) {
                 jLabel14MouseExited(evt);
             }
@@ -482,9 +485,9 @@ int x,y;
 
     private void jLabel13MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel13MouseClicked
         // TODO add your handling code here:
-        RegistrarVenta Register = new RegistrarVenta();
-        Register.setVisible(true);
-        this.dispose();
+        RegistrarVenta rg = new RegistrarVenta();
+        rg.setVisible(true);
+        
     }//GEN-LAST:event_jLabel13MouseClicked
 
     private void jLabel16MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel16MouseClicked
@@ -531,6 +534,13 @@ jLabel23.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color
       seg.setVisible(true);
       dispose();
     }//GEN-LAST:event_jLabel23MouseClicked
+
+    private void jLabel14MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel14MouseClicked
+        // TODO add your handling code here:
+    Ventas vent = new Ventas();
+    vent.setVisible(true);
+    this.dispose();
+    }//GEN-LAST:event_jLabel14MouseClicked
 
     /**
      * @param args the command line arguments

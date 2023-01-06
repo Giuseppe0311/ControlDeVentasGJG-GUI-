@@ -139,8 +139,8 @@ public class RegistrarVenta extends javax.swing.JFrame {
         jPanel1.setPreferredSize(new java.awt.Dimension(330, 550));
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/IMAGENES/LOGObuenadifinicion.png"))); // NOI18N
-        jPanel1.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 10, -1, -1));
+        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/IMAGENES/icons8-cliente-de-empresa-100.png"))); // NOI18N
+        jPanel1.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 70, 240, 150));
 
         jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/IMAGENES/icons8-ventas-totales-96.png"))); // NOI18N
         jPanel1.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 300, -1, -1));
